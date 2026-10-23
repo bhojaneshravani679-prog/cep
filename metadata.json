@@ -1,0 +1,6 @@
+{
+  "name": "Secure Healthcare System",
+  "description": "Secure Healthcare Appointment and Medical Record Management System with role-based access control, appointment booking, medical records, and audit logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

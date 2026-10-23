@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_01",
+      "name": "System Administrator",
+      "email": "admin@healthcare.org",
+      "passwordHash": "$2b$10$hJRCX/.w5NwzisQt7qVgxuhG6rarPR9rdS0TsCR.eeGOGwfN5K/ZC",
+      "role": "admin",
+      "accountStatus": "active",
+      "phone": "+1 (555) 019-2831",
+      "createdAt": "2026-10-23T06:08:02.862Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "usr_doc_01",
+      "name": "Dr. Ananya Sharma",
+      "email": "dr.ananya@healthcare.org",
+      "passwordHash": "$2b$10$8v4AmLfhzCcZFE24izVnKeeCMBo2I1.T5ikLKSe3bCZTSNwJ1U7LW",
+      "role": "doctor",
+      "accountStatus": "active",
+      "phone": "+1 (555) 012-4411",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "usr_doc_02",
+      "name": "Dr. Rahul Patil",
+      "email": "dr.rahul@healthcare.org",
+      "passwordHash": "$2b$10$8v4AmLfhzCcZFE24izVnKeeCMBo2I1.T5ikLKSe3bCZTSNwJ1U7LW",
+      "role": "doctor",
+      "accountStatus": "active",
+      "phone": "+1 (555) 013-8822",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "usr_doc_03",
+      "name": "Dr. Priya Deshmukh",
+      "email": "dr.priya@healthcare.org",
+      "passwordHash": "$2b$10$8v4AmLfhzCcZFE24izVnKeeCMBo2I1.T5ikLKSe3bCZTSNwJ1U7LW",
+      "role": "doctor",
+      "accountStatus": "active",
+      "phone": "+1 (555) 014-9933",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "usr_doc_04",
+      "name": "Dr. Amit Shah",
+      "email": "dr.amit@healthcare.org",
+      "passwordHash": "$2b$10$8v4AmLfhzCcZFE24izVnKeeCMBo2I1.T5ikLKSe3bCZTSNwJ1U7LW",
+      "role": "doctor",
+      "accountStatus": "active",
+      "phone": "+1 (555) 015-7744",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "usr_pat_01",
+      "name": "Aarav Mehta",
+      "email": "patient@example.com",
+      "passwordHash": "$2b$10$4wJrfhNURPW3nZAuK3xJE.oIqp2wXB0rhu2TaKDqD1mibTsYsKIvm",
+      "role": "patient",
+      "accountStatus": "active",
+      "phone": "+1 (555) 018-5566",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@example.com",
+      "passwordHash": "$2b$10$38ydeZwMowScKoGbVWlRKu3dvwVOxnJYXIHUWz7PF0/hERzoz9yxa",
+      "role": "patient",
+      "accountStatus": "active",
+      "phone": "",
+      "_id": "usr_sv9f89xu",
+      "createdAt": "2026-10-23T06:08:54.880Z",
+      "updatedAt": "2026-10-23T06:08:54.880Z"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": "doc_01",
+      "userId": "usr_doc_01",
+      "name": "Dr. Ananya Sharma",
+      "email": "dr.ananya@healthcare.org",
+      "specialization": "General Physician",
+      "qualifications": "MBBS, MD - Internal Medicine (AIIMS)",
+      "experienceYears": 12,
+      "consultationFee": 50,
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "workingHours": {
+        "start": "09:00",
+        "end": "14:00"
+      },
+      "slotDurationMinutes": 30,
+      "verificationStatus": "verified",
+      "isSample": false,
+      "hospitalAffiliation": "Metro Apollo Health Institute",
+      "bio": "Specialist in primary care, chronic illness management, and adult preventive health checkups with 12+ years of clinical excellence.",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "doc_02",
+      "userId": "usr_doc_02",
+      "name": "Dr. Rahul Patil",
+      "email": "dr.rahul@healthcare.org",
+      "specialization": "Cardiologist",
+      "qualifications": "MBBS, MD (Medicine), DM - Cardiology",
+      "experienceYears": 15,
+      "consultationFee": 90,
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "workingHours": {
+        "start": "10:00",
+        "end": "16:00"
+      },
+      "slotDurationMinutes": 30,
+      "verificationStatus": "verified",
+      "isSample": false,
+      "hospitalAffiliation": "National Heart & Vascular Center",
+      "bio": "Renowned cardiologist specializing in coronary artery disease, hypertension management, and echocardiography.",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "doc_03",
+      "userId": "usr_doc_03",
+      "name": "Dr. Priya Deshmukh",
+      "email": "dr.priya@healthcare.org",
+      "specialization": "Dermatologist",
+      "qualifications": "MBBS, DVD, MD - Dermatology & Venereology",
+      "experienceYears": 9,
+      "consultationFee": 65,
+      "availableDays": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "workingHours": {
+        "start": "11:00",
+        "end": "18:00"
+      },
+      "slotDurationMinutes": 30,
+      "verificationStatus": "sample",
+      "isSample": true,
+      "hospitalAffiliation": "Skin Health & Aesthetic Institute",
+      "bio": "Expert dermatologist dealing with clinical skin disorders, allergies, eczema, acne therapies, and dermatopathology. (Sample Doctor Profile)",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "_id": "doc_04",
+      "userId": "usr_doc_04",
+      "name": "Dr. Amit Shah",
+      "email": "dr.amit@healthcare.org",
+      "specialization": "Dentist",
+      "qualifications": "BDS, MDS - Prosthodontics & Oral Implantology",
+      "experienceYears": 8,
+      "consultationFee": 45,
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "workingHours": {
+        "start": "10:00",
+        "end": "17:00"
+      },
+      "slotDurationMinutes": 30,
+      "verificationStatus": "sample",
+      "isSample": true,
+      "hospitalAffiliation": "Dental Precision Care Clinic",
+      "bio": "Comprehensive oral healthcare, restorative dentistry, painless endodontics, and preventive dental hygiene. (Sample Doctor Profile)",
+      "createdAt": "2026-10-23T06:08:02.863Z",
+      "updatedAt": "2026-10-23T06:08:02.863Z"
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "apt_demo_01",
+      "appointmentId": "APT-2026-9481",
+      "patientId": "usr_pat_01",
+      "patientName": "Aarav Mehta",
+      "patientEmail": "patient@example.com",
+      "doctorId": "doc_01",
+      "doctorName": "Dr. Ananya Sharma",
+      "doctorSpecialization": "General Physician",
+      "appointmentDate": "2026-10-25",
+      "appointmentTime": "10:00 AM",
+      "reasonForVisit": "Annual routine health checkup and blood pressure monitoring",
+      "status": "Confirmed",
+      "createdAt": "2026-10-22T06:08:02.863Z",
+      "updatedAt": "2026-10-22T06:08:02.863Z"
+    }
+  ],
+  "medicalRecords": [
+    {
+      "_id": "rec_demo_01",
+      "recordId": "REC-2026-1049",
+      "patientId": "usr_pat_01",
+      "patientName": "Aarav Mehta",
+      "doctorId": "doc_01",
+      "doctorName": "Dr. Ananya Sharma",
+      "appointmentId": "apt_demo_01",
+      "visitDate": "2026-10-15",
+      "diagnosis": "Mild seasonal upper respiratory inflammation and borderline pre-hypertension.",
+      "treatmentNotes": "Patient advised adequate hydration, steam inhalation, and salt restriction. Re-evaluate blood pressure in 2 weeks.",
+      "vitals": {
+        "bloodPressure": "128/84 mmHg",
+        "pulseRate": "74 bpm",
+        "temperature": "98.4 F",
+        "weightKg": "72 kg"
+      },
+      "prescriptionId": "rx_demo_01",
+      "verificationHash": "v_e9f3b817c0a4d2e1",
+      "createdAt": "2026-10-21T06:08:02.863Z",
+      "updatedAt": "2026-10-21T06:08:02.863Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "_id": "rx_demo_01",
+      "prescriptionId": "RX-2026-5082",
+      "recordId": "rec_demo_01",
+      "patientId": "usr_pat_01",
+      "patientName": "Aarav Mehta",
+      "doctorId": "doc_01",
+      "doctorName": "Dr. Ananya Sharma",
+      "prescriptionDate": "2026-10-15",
+      "medications": [
+        {
+          "medicationName": "Cetirizine 10mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily at bedtime",
+          "duration": "5 days",
+          "instructions": "Take after food with water. Avoid driving if drowsy."
+        },
+        {
+          "medicationName": "Vitamin C 500mg Chewable",
+          "dosage": "1 tablet",
+          "frequency": "Twice daily",
+          "duration": "10 days",
+          "instructions": "Chew thoroughly after meals."
+        }
+      ],
+      "instructions": "Stay hydrated with warm fluids. Return if fever persists beyond 48 hours.",
+      "createdAt": "2026-10-21T06:08:02.863Z",
+      "updatedAt": "2026-10-21T06:08:02.863Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": "log_init_01",
+      "actorId": "system",
+      "actorEmail": "system@healthcare.org",
+      "actorRole": "system",
+      "action": "SYSTEM_BOOTSTRAP",
+      "resourceType": "SYSTEM",
+      "resourceId": "SYS_INIT",
+      "details": "Secure Healthcare System seeded with initial verified data models and audit tracking.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-10-23T06:08:02.863Z"
+    },
+    {
+      "actorId": "usr_pat_01",
+      "actorEmail": "patient@example.com",
+      "actorRole": "patient",
+      "action": "LOGIN_SUCCESS",
+      "resourceType": "AUTH",
+      "resourceId": "usr_pat_01",
+      "details": "User patient@example.com (patient) logged in successfully.",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "_id": "log_hh0y8ivz",
+      "timestamp": "2026-10-23T06:08:46.444Z"
+    },
+    {
+      "actorId": "usr_sv9f89xu",
+      "actorEmail": "sneha.roy@example.com",
+      "actorRole": "patient",
+      "action": "USER_REGISTER",
+      "resourceType": "AUTH",
+      "resourceId": "usr_sv9f89xu",
+      "details": "New patient registered: Sneha Roy (sneha.roy@example.com)",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "_id": "log_wurmjxy2",
+      "timestamp": "2026-10-23T06:08:54.881Z"
+    },
+    {
+      "actorId": "public_qr_scanner",
+      "actorEmail": "public@qr-verify",
+      "actorRole": "system",
+      "action": "QR_VERIFICATION_CHECK",
+      "resourceType": "MEDICAL_RECORD",
+      "resourceId": "REC-2026-1049",
+      "details": "QR Code verification performed for record reference REC-2026-1049",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "_id": "log_q8v626t6",
+      "timestamp": "2026-10-23T06:09:02.788Z"
+    }
+  ]
+}
